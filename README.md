@@ -1,2 +1,1 @@
-# rocheck-privacy-policy
-Privacy Policy for the RoCheck Discord Bot
+Terms Of Service and Privacy Policy for the RoCheck Discord Bot
