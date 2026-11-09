@@ -45,7 +45,7 @@ When a user requests a group check, the Bot may process:
 - Roblox group IDs, names, and available group metadata.
 - Group membership status and membership/join dates returned by Roblox.
 - Group verification status, when available.
-- Calculated waiting periods and estimated eligibility results.
+- Calculated waiting periods and estimated eligibility results. The current group-check logic uses a 14-day threshold for ordinary groups and a 4-day threshold for verified groups; these are informational estimates, not guarantees of payout eligibility.
 - Roblox profile, group, avatar, and avatar-item information needed to display the result.
 
 The Bot uses Roblox services and an operator-configured Roblox Open Cloud API key to retrieve relevant information. The Bot does not request Roblox account passwords, session cookies, or login credentials from users.
